@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* ////////////////////////////////////////////////////////// INSCRIPTION ////////////////////////////////// */
+
+#inscription h1{
+    text-shadow: 2px 2px 4px #ad9523;
+    }
+
+/* ////////////////////////////////////////////////////////// SEPARATION ////////////////////////////////// */
+
+.separation{
+    width: 41%;
+    height: 4px;
+    background-color: #ad9523;
+    border-radius: 12px;
+    margin: 14px;
+    }
+
+/* ////////////////////////////////////////////////////////// FORMULAIRE ////////////////////////////////// */
+
+.formulaire{
+    background-color: rgb(9, 83, 83);
+    border-radius: 12px;
+    padding: 17px;
+    }
+
+    .formulaire h4{
+    text-align: center;
+    font-size: 30px;
+    margin: 12px;
+    color: #ad9523;
+    }
+
+/* ////////////////////////////////////////////////////////// QUESTIONNAIRE ////////////////////////////////// */
+
+.questionnaire{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Varela Round', sans-serif;
+    flex-wrap: wrap;
+    }
+
+    .questionnaire label{
+        margin: 10px 0 0 0;
+        background: rgb(0, 0, 0, 0.1);
+        text-align: left;
+        max-width: 290px;
+        margin: 20px 0 12px 0;
+    }
+
+/* ////////////////////////////////////////////////////////// QUESTION ////////////////////////////////// */
+
+ .question label input{
+    height: 39px;
+    width: 281px;
+    }
+
+    .question{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    }
+
+
+/* ////////////////////////////////////////////////////////// COCHE ////////////////////////////////// */
+
+.coche{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        color: white;
+        padding: 17px;
+        align-items: center;
+    }
+
+    .coche div{
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    }
+
+/* ////////////////////////////////////////////////////////// PIED-FORMULAIRE ////////////////////////////////// */
+
+.pied-formulaire{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .pied-formulaire input{
+        border-radius: 11px;
+    font-size: 27px;
+    background-color: #ad9523;
+    }
+
+
+    .pied-formulaire input:hover{
+    transform: scale(1.05);
+    }
+    
+    .formulaire input{
+        display: unset;
+    }

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp2-étape-1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/acceuil.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/gallerie.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <input type="checkbox" id="chk-burger">
+    <label for="chk-burger" class="burger">
+        <img src="https://s2.svgbox.net/materialui.svg?ic=menu&color=000" width="48" height="48" alt="">
+    </label>
+    <nav class="menu">
+        <a href="#acceuil">Acceuil</a>
+        <a href="#inscription">Inscription</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#tableau"> Tableau</a>
+        <a href="#evenement">Évènements</a>
+        <a href="#video">Vidéos</a>
+        <a href="#footer">Footer</a>
+
+    </nav>
+
+    <!-- ////////////////////////// ACCEUIL ///////////////////////////////-->
+
+    <section id="acceuil">
+        <h1> TP2</h1>
+        <h2>Photographie argentique</h2>
+        <h3>Auteur : Guillaume</h3>
+        <p>1W1 - Mise en page web - technique d'intégration multimédia - collège de Maisonneuve</p>
+        <p>Automne 2022</p>
+    </section>
+
+    <!-- /////////////////////////////////////////////// inscription /////////////////////////////////   -->
+
+<section id="inscription">
+    <h1> Inscription </h1>
+        <div class="separation"></div>
+            <form class="formulaire">
+                <h4>Informations</h4>
+                    <div class="questionnaire">
+                        <div class="question">
+
+                            <label for="txt_nom">Votre non
+                                <input type="text" name="txt_nom" id="txt_nom" value="">
+                            </label>
+                            <label for="txt_courriel">Votre courriel
+                                <input type="text" name="txt_courriel" id="txt_courriel" value>
+                            </label>
+                            <label for="txt_telephone">Votre numéro de téléphone
+                                <input type="text" name="txt_telephone" id="txt_telephone" value>
+                            </label>
+                            <label for="txt_program">Votre program
+                                <input type="text" name="txt_program" id="txt_program" value >
+                            </label>
+
+            </div>
+            <div class="coche">
+                <h3>Faites-vous de la photo?</h3>
+                    <div>
+
+                        <label for="chk-html">Oui
+                            <input type="checkbox" name="oui" id="chk-html">
+                        </label>
+                        <label for="chk-css">Non
+                            <input type="checkbox" name="non" id="chk-css">
+                        </label>
+
+            </div>
+                <h3>Est-ce numérique ou argentique?</h3>
+                    <div> 
+
+                        <label for="chk-argentique">Argentique
+                             <input type="checkbox" name="argentique" id="chk-argentique">
+                         </label>
+                        <label for="chk-numerique">Numérique
+                            <input type="checkbox" name="numerique" id="chk-numerique">
+                        </label>
+                        <label for="chk-na">N/A
+                            <input type="checkbox" name="N/A" id="chk-na">
+                        </label>
+
+            </div>
+                <h3>Centres d'intérêts</h3>
+                     <div>
+
+                        <label for="radio-film">Les pellicules
+                            <input type="radio" name="radio-film" id="radio-film">
+                        </label>
+
+        </div>
+            <div>
+
+                <label for="radio-marque">Les marques
+                    <input type="radio" name="radio-marque" id="radio-marque">
+                </label>
+
+        </div>
+            <div>
+
+                <label for="radio-dev">Le dévellopement
+                    <input type="radio" name="radio-dev" id="radio-dev">
+                </label>
+
+        </div>
+                <div>
+
+                    <label for="radio-expo">Les le temps d'exposition
+                        <input type="radio" name="radio-expo" id="radio-expo">
+                    </label>
+
+        </div>
+            <div>
+                
+                <label for="radio-produit">Les produits chimiques
+                    <input type="radio" name="radio-produit" id="radio-produit">
+                </label>
+
+        </div>
+            <div>
+
+                <label for="radio-prix">Les prix
+                    <input type="radio" name="radio-prix" id="radio-prix">
+                </label>
+
+        </div>
+            </div>
+                </div>
+                    <div class="pied-formulaire">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Envoyer">
+        </div>
+         </form>
+</section>
+
+<!--/////////////////////////////////////////// GALERIE //////////////////////////////////////// -->
+
+    <section id="galerie">
+        <h1> Mes images </h1>
+            <figure class="photos">
+                <!-- /// RANGE 1 /// -->
+                <figure class="range1">
+                    <div class="image">
+           
+                        <img src="image/photo1.jpg" alt="">
+                        <div class="image-overlay image-overlay-blur">
+                        <div class="image-title">Dans la tempête</div>
+                        <p class="image-description">
+                        Cette photo a été prise alors que nous étions au milieu d'une tempête, nous nous sommes donc dirigés vers l'île la plus proche.
+                         </p>
+                        </div>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/photo2.JPG" alt="">
+                        <div class="image-overlay image-overlay-blur">
+                        <div class="image-title">Couché de soleil</div>
+                        <p class="image-description">
+                        Notre refuge pointant voir l'est, nous ne pouvions pas bien observer le couché du soleil, nous avons alors dû se faire un chemin dans les bois pour accéder à cet endroit.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="image">
+                        <img src="image/photo3.JPG" alt="">
+                        <div class="image-overlay image-overlay-blur">
+                        <div class="image-title">Levé de soleil</div>
+                        <p class="image-description">
+                        Ceci était la vue que nous avions à notre réveil à 5:00am. Malgré la fatigue que cela a apportée, cela a valu la peine.
+                        </p>
+                        </div>
+                    </div>
+         
+            </figure>
+            <!-- /// RANGE 2 /// -->
+         <figure class="range2">
+            <div class="image">
+                <img src="image/photo5.JPG" alt="">
+                <div class="image-overlay image-overlay-blur">
+                <div class="image-title">Portage</div>
+                <p class="image-description">
+                Entre chaque lac, ou pour contourner les seuils, il faut faire du portage. Porter nos barils et notre canot sur 2 voyage pour un total de 4 fois la longueur du trajet.
+                </p>
+                </div>
+         </div>
+         
+         <div class="image">
+            <img src="image/photo6.JPG" alt="">
+            <div class="image-overlay image-overlay-blur">
+            <div class="image-title">Après la tempète</div>
+            <p class="image-description">
+            Après la tempête de la première photo, nous avons dû reprendre la mer afin de trouver un campement avant la nuit. C'est cette vue que nous avons pu contempler en trouvant notre endroit pour dormi.
+            </p>
+            </div>
+         </div>
+         
+         <div class="image">
+            <img src="image/photo7.JPG" alt="">
+            <div class="image-overlay image-overlay-blur">
+            <div class="image-title">Ascension</div>
+            <p class="image-description">
+            Une photo que j'ai prise alors que je venais de faire ma première ascension de montagne, c'est à partir de ce moment que j'ai commencé cette magnifique activité.
+            </p>
+            </div>
+         </div>
+    </figure>
+</figure>
+
+<!-- /////////////////////////////////////// TABLEAU  ////////////////////////////////// --> 
+        </section>
+
+    <section id="tableau">
+        <h1>Tableau</h1>
+        <h4>Mes caméras</h4>
+        <!--table>(tr>(td>lorem2)*3)*4 -->
+        <table class="mon_tableau">
+            <!-- (tr>(th>lorem2)*3)-->
+            <thead>
+            <tr>
+                <th>Photos de la caméra</th>
+                <th>Style</th>
+                <th>Marque</th>
+                <th>Prix</th>
+                <th>Critique</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        
+
+            <tr>
+                <td><img src="image/nikon123.jpg" alt=""></td>
+                <td>Point and shoot</td>
+                <td>Nikon</td>
+                <td>90$</td>
+                <td class="explication">La caméra que j'utilise le plus, très bon ratio prix/qualité. Petite donc peut s'apporter facilement dans toutes mes explorations.</td>
+            </tr>
+            <tr>
+                <td><img src="image/fujifilm.jpg" alt=""></td>
+                <td>Point and shoot</td>
+                <td>FujiFilm</td>
+                <td>180$</td>
+                <td class="explication">J'ai payé un peu cher pour celle-ci alors que la qualité ne vaut pas le prix. Fonctionne très bien malgré qu'il s'agit l'une de mes premières donc commence à être moins utilisable.</td>
+            </tr>
+            <tr>
+                <td><img src="image/minolta.jpg" alt=""></td>
+                <td>Automatique</td>
+                <td>Minolta</td>
+                <td>75$</td>
+                <td class="explication">Très bonne expérience avec. On peut naviguer parmi les nombreux modes : manuel, automatique, longue exposition, telle une caméra numérique.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><img src="image/minoltaXg1.jpg" alt=""></td>
+                <td>Manuelle</td>
+                <td>Minolta</td>
+                <td>150$</td>
+                <td class="explication">Je n'ai pas encore eu beaucoup de chance de l'utiliser. Étant complètement manuel, il est un peu plus difficile de l'utiliser. De plus, il faut l'utiliser dans certaines conditions.</td>
+            </tr>
+        </tfoot>
+    
+
+        </table>
+    </section>
+
+    <!-- //////////////////////////////////////////////////////// EVENEMENT ////////////////////////////////////////////////-->
+
+    <section id="evenement">
+        <h1> Évènements</h1>
+            <div class="article">
+                <div class="article-post">
+                    <!-- //// ARTICLE1 ////-->
+                    <div class="article-post-img">
+                         <img src="image/article.jpg" alt="">
+                    </div>
+                    <div class="article-post-info">
+                    <div class="article-post-date">
+                        <span> 30 Mai 2022</span>
+                    </div>
+                        <h1 class="article-post-titre">La photo argentique et les jeunes</h1>
+                        <p class="article-post-texte">
+                        Les chiffres sont têtus. Ils confirment une nette tendance. Les jeunes générations ultraconnectées et biberonnées au numérique, éprouvent le besoin de goûter à l'argentique...
+                        </p>
+                         <a href="https://leclaireur.fnac.com/article/96559-largentique-et-les-jeunes-une-mode-durable/" class="article-post-cta">Lisez en plus</a>
+                </div>
+
+        </div>
+
+        <div class="article-post">
+            <!-- //// ARTICLE2 ////-->
+            <div class="article-post-img">
+                <img src="image/article5.jpg" alt="">
+            </div>
+            <div class="article-post-info">
+            <div class="article-post-date">
+                <span> 5 Avril 2021</span>
+            </div>
+                <h1 class="article-post-titre"> Je retourne à la photo argentique ! </h1>
+                <p class="article-post-texte">
+                Mais le plus important dans cela, c'est qu'en ce moment, je photographie avec plaisir des anémones pulsatilles allongé dans l'herbe...
+                </p>
+                <a href="https://www.clementblin.net/blog-de-photographie-nature-conseil-et-technique/2021/4/1/le-retour-de-la-photo-argentique" class="article-post-cta">Lisez en plus</a>
+            </div>
+
+        </div>
+
+        <div class="article-post">
+            <!-- //// ARTICLE3 ////-->
+            <div class="article-post-img">
+                <img src="image/article3.jpeg" alt="">
+            </div>
+            <div class="article-post-info">
+            <div class="article-post-date">
+                    <span> 25 Octobre 2020</span>
+            </div>
+                <h1 class="article-post-titre">8 jours de road trip en Corse</h1>
+                <p class="article-post-texte">
+                1 chien, 2 vélos, 3 appareils photos argentiques, 4 pellicules, soit 102 photos sur les belles routes ensoleillées du Nord de la Corse ! Voici une partie de nos clichés réalisés en argentique...
+                </p>
+                <a href="https://www.blackandwood.fr/road-trip-corse-argentique/" class="article-post-cta">Lisez en plus</a>
+            </div>
+
+        </div>
+
+        <div class="article-post">
+            <!-- //// ARTICLE4 ////-->
+            <div class="article-post-img">
+                <img src="image/article4.jpg" alt="">
+            </div>
+            <div class="article-post-info">
+            <div class="article-post-date">
+                    <span> 14 Décembre 2022</span>
+            </div>
+                <h1 class="article-post-titre">Invention de la photographie</h1>
+                <p class="article-post-texte">
+                L'appareil photo argentique a une histoire riche, composée de multiples inventions faites au fil des siècles. Au XXème siècle  les bases du matériel photo indispensable sont inventés ...
+                </p>
+                <a href="https://www.histoire-pour-tous.fr/inventions/745-invention-de-la-photographie.html#:~:text=Eastman%20Kodak%2C%20la%20photographie%20pour,permettant%20de%20prendre%20plusieurs%20clich%C3%A9s." class="article-post-cta">Lisez en plus</a>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- ////////////////////////////////////////////////////// VIDEO //////////////////////////////////////////////////////////////////////-->
+
+<section id="video">
+        <h1> Videos</h1>
+            <div class="youtube">
+                <div class="video-principal">
+
+                <h3> Un photographe à découvrir (Anglais)</h3>
+                <iframe 
+                 width="560"
+                 height="315" 
+                 src="https://www.youtube.com/embed/ou19tbrDC6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+               <h3> Un photographe à découvrir (Français)</h3>
+               <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/jKmyxeh25YU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+    
+        </div>
+            <div class="video-list">
+                <div class="vid">
+
+                    <iframe 
+                    width="560" 
+                    height="315"
+                     src="https://www.youtube.com/embed/EBZeRvnc49I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <h4 class="titre"> L'un de mes artistes favoris en terme de podcast</h4>
+
+                </div>
+                <div class="vid">
+
+                    <iframe width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/0MqHoKphB_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <h4 class="titre"> Ce que peut ressembler une exploration avec un appareil argentique</h4>
+            
+                </div>
+                <div class="vid">
+
+                    <iframe
+                    width="560" 
+                    height="315"
+                    src="https://www.youtube.com/embed/aVyzpblZgFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <h4 class="titre"> Pour numériser vos pellicules vous mêmes</h4>
+
+                </div>
+                <div class="vid">
+
+                    <iframe
+                     width="560" 
+                     height="315" 
+                     src="https://www.youtube.com/embed/GnblTjVaQO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <h4 class="titre"> La critique des autres est une bonne façon de s'améliorer</h4>
+
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- ////////////////////////////////////// FOOTER //////////////////////////////////////////////////////-->
+
+    <section id="footer">
+        <div class="information">
+            <dl>
+              <dt>Liens utiles</dt>
+              <dd></dd>
+              <dd>Acheter une caméra :</dd>
+              <a href="https://studioargentique.ca/fr">https://studioargentique.ca/fr</a>
+              <dd></dd>
+              <dd>Acheter des pellicules : </dd>
+              <a href="https://photostdenis.com/fr">https://photostdenis.com/fr</a>
+              
+            </dl>
+            <dl>
+              <dt>Réaliser dans pour le programme multimédias</dt>
+              <dd>Dans le cours de mise en page web</dd>
+              <p> Ce programme permet de réaliser des produits interactifs tels que des sites Web, comme celui-ci, des jeux 2D/3D, du montage, de la conception graphique et bien d'autres. Il faut apprendre à utiliser des logiciels et des langages de programmation afin de rendre les réalisations fonctionnelles et à en programmer l'interactivité.</p>
+            </dl>
+        </div>
+        <div class="politique">
+            <dl>
+              <dd>Collège de Maisonneuve | 3800 R. Sherbrooke E, Montréal</dd>
+              <dd>Avis de confidentialité | Privacy Notice</dd>
+            </dl>
+        </div>
+    
+            <div class="sociaux">
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=github&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=messenger&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=paypal&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=wikipedia&color=fff"
+                width="16"
+                height="16"
+                alt=""
+              />
+            </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+
+/*/////////////////////////////////// PHOTO ///////////////////////*/
+.photo{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+/*/////////////////////////////////// RANGÉ HAUT-BAS ///////////////////////*/
+
+.range1, .range2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*/////////////////////////////////// IMAGE ///////////////////////*/
+
+.image{
+    position: relative;
+    width: 359px;
+    padding: 12px;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+}
+
+/*/////////////////////////////////// OVERLAY ACTION ///////////////////////*/
+
+.image-overlay{
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    width: 95%;
+    height: 92%;
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s;
+ 
+}
+
+.image-overlay-blur{
+    backdrop-filter: blur(5px);
+}
+
+.image-overlay:hover{
+    opacity: 1;
+    transition: all .5s;
+}
+
+/*/////////////////////////////////// TITRE IMAGE ///////////////////////*/
+
+.image-title{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+}
+
+/*/////////////////////////////////// DESCRIPTION IMAGE ///////////////////////*/
+
+.image-description{
+    font-size: 1.25rem;
+    margin-top: 0.25;
+}
+

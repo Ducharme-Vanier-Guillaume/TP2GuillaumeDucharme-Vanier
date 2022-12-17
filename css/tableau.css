@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* ////////////////////////////////////// TABLEAU //////////////////////////////*/
+
+
+#tableau h4{
+    font-size: 35px;
+    font-family: auto;
+    margin: 18px 0px 15px 0px;
+}
+
+/* ////////////////////////////////////// MON_TABLEAU //////////////////////////////*/
+
+.mon_tableau{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* ////////////////////////////////////// THEAD //////////////////////////////*/
+
+.mon_tableau thead{
+    color: white;
+}
+
+/* ////////////////////////////////////// TH //////////////////////////////*/
+
+.mon_tableau th{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid black;
+    padding: 7px;
+    
+    /*Pour rendre le fond plus foncé*/
+    /*background-color: rgba(255, 255, 255, 0.1);
+    pour rendre plus pale*/
+}
+
+/* ////////////////////////////////////// TD //////////////////////////////*/
+
+.mon_tableau td{
+    border: 1px solid black;
+    padding: 6px;
+    height: 34px;
+    width: 230px;
+    font-family: monospace;
+}
+
+
+.mon_tableau .explication {
+    text-align: left;
+    padding: 16px;
+}
+
+/* ////////////////////////////////////// IMG //////////////////////////////*/
+
+.mon_tableau tr td img{
+    height: 105px;
+}
+

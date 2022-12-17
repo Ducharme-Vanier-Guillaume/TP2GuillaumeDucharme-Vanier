@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* ///////////////////////////////////////////// LES SECTIONS DE LA PAGE ////////////////////////////*/
+
+section {
+    height: 101vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+
+#inscription{
+    background-color: rgb(32, 95, 95);
+   
+}
+
+#galerie{
+    background-color: rgb(54, 94, 94);
+}
+
+#tableau {
+    background-color: rgb(66, 139, 145);
+}
+
+
+
+#evenement{
+    background-color: rgb(108, 139, 139);
+}
+
+#video{
+    background-color: rgb(156, 185, 185);
+}
+
+#footer{
+    background-color: rgb(52, 66, 66);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px 9.5px #789ac2;
+    margin: 0;
+    font-family: cursive;
+}
+
+/* Menu principale du site. 
+On utilise un positionnement fixed pour que le menu reste en haut de chacune des sections.
+*/
+
+#chk-burger:checked ~.menu{
+    transform: translateX(0);
+    transform: rotate(0);
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.5); 
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: -8%;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s;
+    flex-direction: column;
+    padding: 10px;
+    transform: translateX(-172px);
+
+    
+}
+
+.menu a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+ input{
+    display: none;
+ }
+
+label img{
+    transform: translateY(6px);
+    position: fixed;
+}

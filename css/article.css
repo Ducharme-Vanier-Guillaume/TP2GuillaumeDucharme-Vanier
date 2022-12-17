@@ -1,0 +1,100 @@
+
+
+/* /////////////////////////////////// ARTICLE /////////////////////////////*/
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* /////////////////////////////////// ARTICLE-POST /////////////////////////////*/
+
+.article-post{
+    width: 35%;
+    padding: 23px;
+    background-color: #3b4852ba;
+    box-shadow: 0 1.4rem 8rem rgb(0 0 0 / 45%);
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem;
+    margin: 39px;
+}
+
+/* /////////////////////////////////// ARTICLE IMG /////////////////////////////*/
+
+.article-post-img{
+    transform: translateX(-5rem);
+    position: relative;
+    display: flex;
+
+}
+
+.article-post-img img{
+    width: 154%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+/* /////////////////////////////////// ARTICLE COLONE INFO /////////////////////////////*/
+
+.article-post-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+}
+
+/* /////////////////////////////////// ARTICLE  DATE /////////////////////////////*/
+
+.article-post-date span{
+       /* display: block; */
+       color: rgb(177 177 177);
+       font-size: 13px;
+       font-weight: 600;
+       margin: 0.5rem 0;
+}
+
+/* /////////////////////////////////// ARTICLE TITRE /////////////////////////////*/
+
+.article-post-titre{
+    font-size: 18px;
+    margin: 0.5rem 0px 0rem;
+    text-transform: uppercase;
+    color: #ededed;
+    text-shadow: none;
+    font-family: auto;
+}
+
+/* /////////////////////////////////// ARTICLE TEXTE /////////////////////////////*/
+
+.article-post-texte{
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: #c9c9c9;
+    width: 381px;
+    text-align: justify;
+
+}
+
+/* /////////////////////////////////// ARTICLE BOUTON /////////////////////////////*/
+
+.article-post-cta{
+    padding: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    background-image: linear-gradient(to right, #9d9d9d 0%, #003554 100%);
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
+.article-post-cta:hover{
+    background-image: linear-gradient(to right, #9d9d9d 0%, #375566 100%);
+    transform: scale(1.05);
+}
+
+
+
+
